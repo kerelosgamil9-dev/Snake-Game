@@ -1,0 +1,19 @@
+[app]
+title = Snake Game
+package.name = snakegame
+package.domain = org.kerelos
+source.dir = .
+source.include_exts = py,png,jpg,kv,atlas,wav,ttf,json
+version = 1.0
+requirements = python3,kivy,arabic-reshaper,plyer,android
+orientation = portrait
+fullscreen = 0
+android.permissions = VIBRATE
+android.api = 33
+android.minapi = 21
+android.ndk = 25b
+android.archs = arm64-v8a, armeabi-v7a
+android.allow_backup = True
+icon.filename = %(source.dir)s/icon.png
+presplash.filename = %(source.dir)s/icon.png
+android.presplash_color = #0A0E12
